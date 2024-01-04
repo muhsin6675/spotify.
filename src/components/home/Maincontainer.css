@@ -1,0 +1,428 @@
+.main-container {
+  margin-left: 285px;
+  margin-bottom: 80px;
+  border-radius: 8px;
+}
+
+.topbar {
+  display: flex;
+  height: 60px;
+  width: 98%;
+  margin: auto;
+  margin-top: 10px;
+  justify-content: space-between;
+  background-color: rgb(16, 16, 16);
+  padding: 14px 30px;
+  border-top-right-radius: 8px;
+  margin-bottom: 10px;
+  border-top-left-radius: 8px;
+  position: sticky;
+  top: 0;
+  margin-left: 15px;
+
+}
+
+.topbar .prev-next-buttons button {
+  color: #7a7a7a;
+  cursor: not-allowed;
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
+  font-size: 18px;
+  border: 0px;
+  background-color: #090909;
+  margin-right: 10px;
+  margin-top: 3px;
+
+}
+
+.topbar .navbar {
+  display: flex;
+  align-items: center;
+
+}
+
+.topbar .navbar ul {
+  list-style: none;
+}
+
+.topbar .navbar ul li {
+  display: inline-block;
+  margin: 0px 8px;
+  width: 70px;
+}
+
+.topbar .navbar ul li a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.topbar .navbar ul li a:hover {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.topbar .navbar ul li.divider {
+  color: #ffffff;
+  font-size: 26px;
+  margin: 0px 20px;
+  width: auto;
+}
+
+.topbar .navbar button {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 30px;
+  border: 0px;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.topbar .navbar button:hover {
+  background-color: #f2f2f2;
+}
+
+.spotify-playlists {
+  background: rgb(30, 30, 30);
+  padding: 20px 40px;
+}
+
+.spotify-playlists h2 {
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.spotify-playlists .list {
+  display: flex;
+  gap: 25px;
+  overflow: hidden;
+}
+.show-all{
+  display: flex;
+  justify-content: space-between;
+}
+.showall-link{
+  color: #808080;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px
+}
+.showall-link:hover{
+  text-decoration: underline;
+}
+.spotify-playlists .list .item {
+  min-width: 150px;
+  width: 170px;
+  padding: 15px;
+  background-color: rgb(20, 20, 20);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all ease 0.4s;
+}
+
+.spotify-playlists .list .item:hover {
+  background-color: #252525;
+}
+
+.spotify-playlists .list .item img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.spotify-playlists .list .item .play {
+  position: relative;
+}
+
+.spotify-playlists .list .item .play .fa {
+  position: absolute;
+  right: 10px;
+  top: -60px;
+  padding: 18px;
+  background-color: #1db954;
+  border-radius: 100%;
+  opacity: 0;
+  transition: all ease 0.4s;
+}
+.fa-play{
+  color: black;
+}
+.spotify-playlists .list .item:hover .play .fa {
+  opacity: 1;
+  transform: translateY(-20px);
+}
+
+.spotify-playlists .list .item h4 {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.spotify-playlists .list .item p {
+  color: #989898;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.spotify-playlists hr {
+  margin: 70px 0px 0px;
+  border-color: #636363;
+}
+
+.footer {
+  background: rgb(30, 30, 30);
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.ft-container {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.ft-one {
+  line-height: 33px;
+  font-size: 15px;
+  color: #b3b3b3;
+  font-weight: 500;
+}
+
+.ft-header {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.social-media-container {
+  display: flex;
+  gap: 30px;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+.fa-brands {
+  color: white;
+
+}
+
+.copy-right {
+  height: 180px;
+  background: rgb(30, 30, 30);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: #b3b3b3;
+  font-size: 13px;
+}
+
+.cr-text {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.preview {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, #ae2896, #509bf5);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.preview h6 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.preview p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.preview button {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 30px;
+  border: 0px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.centercontainer{
+  margin: auto;
+  width: 430px;
+  height: 710px;
+}
+.center-header{
+  font-size: 44px;
+  color: white;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.formcontainer{
+  display: flex;
+  flex-direction: column;
+}
+.mail-label{
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 16px;
+  padding-top: 30px;
+}
+.mail-input{
+  width: 340px;
+  height: 45px;
+  border-radius: 6px;
+  margin-left: 14px;
+  margin-top: 10px;
+  background-color: transparent;
+  border: 1px solid #808080;
+  color: white;
+  font-size: 14px;
+  padding-left: 10px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.mail-input::placeholder{
+  padding-left: 10px;
+  font-size: 14px;
+  color: #7a7a7a;
+  font-weight: 700;
+}
+.mail-input:hover{
+  border: 1px solid white;
+}
+.phn-link{
+  color: rgb(24,215,96);
+  font-size: 13px;
+  padding-left: 14px;
+  padding-top: 80px;
+  font-weight: 500;
+}
+.btn-next{
+  width: 340px;
+  height: 45px;
+  margin-left: 12px;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: rgb(30,215,96);
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+}
+.line-container {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 6px;
+  width: 360px;
+}
+.line {
+  flex-grow: 1;
+  border-top: 1px solid #808080;
+  margin-left:8px;
+  margin-right: 8px;
+}
+.centered-text {
+  padding: 0 10px; 
+  color: #ffffff; 
+  font-size: 13px;
+  font-weight: 500;
+}
+.google-text{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.google-btn{
+  background-color: transparent;
+  position: relative;
+  width: 340px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 30px;
+  border: 1px solid #808080;
+}
+.g-i{
+  position: absolute;
+  left: 20px;
+}
+.fb-btn{
+  margin-top: 10px;
+  background-color: transparent;
+  position: relative;
+  width: 340px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 30px;
+  border: 1px solid #808080;
+}
+.f-i{
+  position: absolute;
+  left: 14px;
+  bottom: 8px;
+}
+.fb-text{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.line-hr{
+  border-top: 0.1px solid #808080;
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 350px;
+}
+.already{
+  color: #7a7a7a;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+.al-link{
+  color: rgb(255,255,240);
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+.final-text{
+  color: #808080;
+  font-size: 10px;
+  margin-left: 45px;
+}
+.f-link{
+  color: #808080;
+  font-size: 10px;
+  margin-left: 65px;
+}
+.f2-link{
+  color: #808080;
+  font-size: 10px;
+}

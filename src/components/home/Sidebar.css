@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(0, 0, 0);
+}
+.sidebar {
+  width: 300px;
+  height: 680px;
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.logo-container {
+  width: 280px;
+  height: 170px;
+  background-color: rgb(18, 18, 18);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+ .spotifylogo{
+  width: 110px;
+  margin-left: 18px;
+  margin-top: 18px;
+}
+
+.navigation {
+  margin-top: 18px;
+  line-height: 40px;
+}
+
+.home {
+  text-decoration: none;
+
+}
+
+.fa-house {
+  margin-left: 22px;
+}
+
+.hometext {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.fa-search {
+  margin-left: 22px;
+  color: #808080;
+}
+
+.searchtext {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #808080;
+}
+
+.searchtext:hover {
+  color: white;
+}
+
+.fa-search:hover {
+  color: white;
+}
+
+.library-container {
+  display: block;
+  width: 280px;
+  height: 385px;
+  background-color: rgb(18, 18, 18);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  border-radius: 8px;
+}
+
+.library {
+  position: fixed;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  width: 280px;
+  height: 60px;
+  background-color: rgb(18, 18, 18);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.plusbtn {
+  background: transparent;
+  border: none;
+  margin-left: 80px;
+  font-size: 17px;
+}
+
+.fa-book {
+  margin-left: 22px;
+  color: #808080;
+  padding-top: 30px;
+}
+
+.libtext {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #808080;
+}
+
+.fa-book:hover {
+  color: white;
+}
+
+.libtext:hover {
+  color: white
+}
+
+.scroll-text {
+  width: 270px;
+  margin: auto;
+  height: 60px;
+  background-color: rgb(18, 18, 18);
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.scroll-text:hover {
+  overflow-y: auto;
+}
+
+.scroll-text:hover::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scroll-text:hover::-webkit-scrollbar-thumb {
+  background-color: #888;
+  height: 30px;
+}
+
+.scroll-header {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-top: 12px;
+}
+
+.s-t {
+  font-size: 14px;
+  color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-weight: 500;
+}
+
+.s-t-2 {
+  font-size: 14px;
+  color: white;
+  padding-left: 20px;
+  padding-top: 8px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.btn-createplaylist {
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+  color: #000000;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 18px;
+  margin-top: 15px;
+  border: none;
+}
+
+.btn-createpodcast {
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+  color: #000000;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 18px;
+  margin-top: 15px;
+  border: none;
+}
+
+.scroll-first-container {
+  width: 250px;
+  margin: auto;
+  height: 115px;
+  background-color: rgb(48, 47, 47);
+  border-radius: 8px;
+}
+
+.scroll-second-container {
+  width: 250px;
+  margin: auto;
+  height: 180px;
+  background-color: rgb(48, 47, 47);
+  border-radius: 8px;
+  margin-top: 25px;
+}
+
+.scroll-header-two {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  padding-left: 20px;
+  line-height: 25px;
+  padding-top: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+.list-items {
+  width: 250px;
+  margin: auto;
+  height: 180px;
+  background-color: rgb(18, 18, 18);
+  margin-top: 35px;
+  font-size: 10px;
+  display: flex;
+
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  color: rgb(163, 163, 163);
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.eng {
+  width: 95px;
+  border-radius: 20px;
+  height: 30px;
+  border: 1px solid white;
+  color: #ffffff;
+  background-color: transparent;
+  margin-top: 20px;
+}
+.eng-text{
+  color: #ffffff;
+  font-weight: 500;
+}
+.fa-globe{
+  font-size: large;
+ 
+}
